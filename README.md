@@ -93,7 +93,6 @@ npm run dev
 A dedicated **portfolio** section is planned, showcasing featured photoshoots.  
 It will include:
 - 📷 **Gallery of high-resolution images**
-- 🔍 **Filter options** (e.g., wedding, portrait, landscape)
 - 🖼️ **Lightbox preview mode**
 
 Stay tuned for updates!
