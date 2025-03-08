@@ -101,6 +101,7 @@ It displays images in a responsive 4-column grid:
 
 
 ## 📸 Screenshots (Coming Soon)
+![Navbar and Banner](https://github.com/user-attachments/assets/5f23674c-6332-499a-a046-0e467344e392)
 
-⚠️ **Screenshots of the working app will be added here soon!**  
+ 
 
