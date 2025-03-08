@@ -99,9 +99,14 @@ It displays images in a responsive 4-column grid:
 
 👉 This section effectively showcases our featured photoshoots and acts as our portfolio.
 
-
-## 📸 Screenshots (Coming Soon)
+## 📸 Screenshots
 ![Navbar and Banner](https://github.com/user-attachments/assets/5f23674c-6332-499a-a046-0e467344e392)
-
- 
+![About Us](https://github.com/user-attachments/assets/ecd05469-5776-429b-8ec2-5bbf7deb2af5)
+![Our Services](https://github.com/user-attachments/assets/84ae493d-1da2-43ae-9332-1f03f9b1eab2)
+![Gallery](https://github.com/user-attachments/assets/f5022165-e57a-4baf-9611-85e4fe864a7a)
+![Transform](https://github.com/user-attachments/assets/98fd2c79-2f90-41f0-bc02-6fb383ddfddd)
+![Our Team](https://github.com/user-attachments/assets/971d491c-16b3-4723-84e3-8dfc3803cbc8)
+![Testimonials](https://github.com/user-attachments/assets/b10e3a33-7116-458e-b890-f50a1d130af6)
+![Working Hours](https://github.com/user-attachments/assets/93689be0-7954-4462-8740-d5f712f09b06)
+![Footer](https://github.com/user-attachments/assets/4789bd11-c331-413b-a6f7-f2d4cdfdc7d6)
 
