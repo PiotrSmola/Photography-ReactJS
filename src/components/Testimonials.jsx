@@ -6,7 +6,7 @@ const Testimonials = () => {
     { img: '/img/testimonials2.jpg', name: 'Mark Wilson', text: 'Professional and creative – highly recommended!' },
     { img: '/img/testimonials3.jpg', name: 'Emily Davis', text: 'Every shot tells a story. Exceptional service.' },
     { img: '/img/testimonials4.jpg', name: 'Samuel Green', text: 'A wonderful experience from start to finish.' },
-    { img: '/img/testimonials5.jpg', name: 'Laura Brown', text: 'Transformed our moments into everlasting memories.' },
+    { img: '/img/testimonials5.jpg', name: 'Alex Brown', text: 'Transformed our moments into everlasting memories.' },
   ];
   
   const [currentIndex, setCurrentIndex] = useState(0);
