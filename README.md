@@ -10,9 +10,10 @@ The project provides a fully responsive **portfolio and booking platform** for p
 ✅ Fully responsive design  
 ✅ Dynamic testimonials slider  
 ✅ Interactive service sections  
+✅ Responsive Gallery with lightbox preview  
 ✅ Elegant animations (reveal on scroll)  
 ✅ Modal booking form  
-✅ Styled with SCSS  
+✅ Styled with plain CSS
 
 ---
 
@@ -77,7 +78,7 @@ npm run dev
 - Resets smoothly to the first slide after the last.
 
 ### 3️⃣ Booking Modal
-- Clicking the **"Book Now"** button opens a modal.
+- Clicking the **"Hire Us Now"** button opens a modal.
 - Users enter their **name and phone number** for a callback request.
 - Simple form validation included.
 
@@ -85,19 +86,19 @@ npm run dev
 - Sections smoothly appear as you scroll down.
 - Implemented via a custom React hook (`useRevealOnScroll`).
 
----
+## 📸 Gallery / Portfolio
 
-## 🛠️ TODO: Upcoming Features
+The **Gallery** section serves as the portfolio for our photography services.  
+It displays images in a responsive 4-column grid:
 
-### 🚧 Portfolio Section
-A dedicated **portfolio** section is planned, showcasing featured photoshoots.  
-It will include:
-- 📷 **Gallery of high-resolution images**
-- 🖼️ **Lightbox preview mode**
+- **Initially, 8 images** are shown.
+- Clicking the **"See More"** button loads an additional **4 images** per click.
+- Images are dynamically generated based on a total count and use the naming format `gallery{number}.jpg`.
+- All images are styled with `object-fit: cover` to ensure they fill their grid cell perfectly, even if they have different aspect ratios.
+- Clicking an image opens a **Lightbox** for a full-size preview.
 
-Stay tuned for updates!
+👉 This section effectively showcases our featured photoshoots and acts as our portfolio.
 
----
 
 ## 📸 Screenshots (Coming Soon)
 
