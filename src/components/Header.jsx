@@ -21,7 +21,7 @@ const Header = ({ setModalOpen }) => {
       <nav className={`nav container ${navBg ? 'nav--bgc' : ''}`}>
         <a href="#home" className="nav__logo">PhotoServices</a>
         <div className={`nav__links ${burgerOpen ? 'burger--open' : ''}`}>
-          {['home', 'about', 'services', 'our photographers', 'contact'].map((link) => (
+          {['home', 'about', 'services', 'gallery', 'our photographers', 'contact'].map((link) => (
             <a
               key={link}
               className="nav__link"

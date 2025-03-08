@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Services from './components/Services';
+import Gallery from './components/Gallery';
 import Transform from './components/Transform';
 import Team from './components/Team';
 import Testimonials from './components/Testimonials';
@@ -22,6 +23,7 @@ function App() {
       <main className="main">
         <About />
         <Services />
+        <Gallery />
         <Transform setModalOpen={setModalOpen} />
         <Team />
         <Testimonials />
