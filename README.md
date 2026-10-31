@@ -66,6 +66,32 @@ npm run dev
 
 #### By default, the app runs on http://localhost:5173/.
 
+### **3️⃣ Docker (no Node.js required)**
+The only requirement is [Docker](https://docs.docker.com/get-docker/) with Docker Compose v2 (included in Docker Desktop).
+The image builds the app and serves the production build with **nginx**.
+
+#### 🖥 **Windows (cmd or PowerShell)**
+```
+.\docker-start.bat          # build and start
+.\docker-start.bat logs     # follow logs
+.\docker-start.bat stop     # stop and remove the container
+```
+
+#### 🐧 Linux / macOS (Terminal)
+```
+chmod +x docker-start.sh
+./docker-start.sh           # build and start
+./docker-start.sh logs      # follow logs
+./docker-start.sh stop      # stop and remove the container
+```
+
+Or run Docker Compose directly:
+```
+docker compose up -d --build
+```
+
+#### The app runs on http://localhost:8080/. To use another port, set `APP_PORT` (e.g. `APP_PORT=3000 ./docker-start.sh`, or `set APP_PORT=3000` before running the `.bat` on Windows).
+
 ## 📌 How It Works
 
 ### 1️⃣ Navigation & Sections

@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+.git
+.gitignore
+.vscode
+.idea
+*.log
+*.local
+Dockerfile
+docker-compose.yml
+.dockerignore
+start.bat
+start.sh
+docker-start.bat
+docker-start.sh
