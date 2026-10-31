@@ -39,7 +39,7 @@ start.bat
 
 #### 🐧 Linux / macOS (Terminal)
 ```
-chmod +x start-app.sh
+chmod +x start.sh
 ./start.sh
 ```
 

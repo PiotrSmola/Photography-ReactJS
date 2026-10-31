@@ -11,15 +11,13 @@ pause
 exit /b
 )
 
-:: Installing dependencies
+:: Installing dependencies (if missing)
+IF NOT EXIST node_modules (
 echo Installing dependencies...
-npm install
-
-:: Building the application
-echo Building the project...
-npm run build
+call npm install
+)
 
 :: Starting the application
 echo Starting the development server...
-npm start
+call npm run dev
 pause
